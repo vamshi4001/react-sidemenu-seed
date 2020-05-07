@@ -8,6 +8,7 @@ import Shortcuts from '../shortcuts/shortcuts'
 import Overview from '../overview/overview'
 import Events from '../events/events'
 import Profile from '../profile/profile'
+import ProfileDetails from '../profile/profile-details'
 import Status from '../status/status'
 import About from '../about/about'
 import Contact from '../contact/contact'
@@ -27,6 +28,7 @@ function Home() {
             <Route path="/overview" component={Overview} />
             <Route path="/events" component={Events} />
             <Route path="/profile" component={Profile} />
+            <Route path="/profile/:id" component={ProfileDetails} />            
             <Route path="/status" component={Status} />
             <Route path="/old-status">
               <Redirect to="/status"/>
