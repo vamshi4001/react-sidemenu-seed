@@ -12,6 +12,8 @@ function Sidemenu() {
             <Link to="/events" className="list-group-item list-group-item-action bg-light">Events</Link>
             <Link to="/profile" className="list-group-item list-group-item-action bg-light">Profile</Link>
             <Link to="/status" className="list-group-item list-group-item-action bg-light">Status</Link>
+            <Link to="/wrong-path" className="list-group-item list-group-item-action bg-light">Wrong Path</Link>
+            <Link to="/old-status" className="list-group-item list-group-item-action bg-light">Go to Status</Link>
         </div>
     </div>
   );
