@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and built uppon it to add bootstrap 4 with a sidemenu, routing mechanism to support first and second level dynamic pages. Store management done with redux. and side effects of making ajax calls with axios handled using thunk.
+
+## What it has
+✓ Simple sidebar
+✓ Include react and router so various sidemenu shows diferent pages with differeny component
+✓ Include redux to make that ajax call and show data on one of the components
+✓ Include thunk or saga to justify the middleware to make calls.
+✓ Use axios and fetch to make ajax calls
+✓ Hooks and mapStateToProps
+
+Introduce ducks patterns to organize the redux store
+Using selector to bind them
 
 ## Available Scripts
 
